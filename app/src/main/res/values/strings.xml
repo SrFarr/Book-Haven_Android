@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BookHaven2</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_register_screen">RegisterScreen</string>
+    <string name="title_activity_nav_graph">NavGraph</string>
+    <string name="title_activity_admin_home_scree">AdminHomeScree</string>
+    <string name="title_activity_user_home_screen">UserHomeScreen</string>
+    <string name="title_activity_navbar">Navbar</string>
+    <string name="title_activity_admin_user">AdminUser</string>
+    <string name="title_activity_admin_topbar">AdminTopbar</string>
+    <string name="title_activity_admin_book">AdminBook</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookHaven2">
+        <activity
+            android:name=".ui.screen.AdminScreen.AdminBook"
+            android:exported="false"
+            android:label="@string/title_activity_admin_book"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".ui.screen.Komponen.AdminTopbar"
+            android:exported="false"
+            android:label="@string/title_activity_admin_topbar"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".ui.screen.AdminScreen.AdminUser"
+            android:exported="false"
+            android:label="@string/title_activity_admin_user"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".navigation.Navbar"
+            android:exported="false"
+            android:label="@string/title_activity_navbar"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".ui.screen.UserScreen.UserHomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_user_home_screen"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".ui.screen.AdminScreen.AdminHomeScree"
+            android:exported="false"
+            android:label="@string/title_activity_admin_home_scree"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".navigation.NavGraph"
+            android:exported="false"
+            android:label="@string/title_activity_nav_graph"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".ui.screen.AuthScreen.RegisterScreen"
+            android:exported="false"
+            android:label="@string/title_activity_register_screen"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".ui.screen.AuthScreen.LoginScreen"
+            android:exported="false"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/Theme.BookHaven2" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BookHaven2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
